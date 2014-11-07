@@ -1,0 +1,10 @@
+stream = <br>
+<%= @stream.entries[0].methods %>
+<% for entry in  @stream.entries %>
+	<%= entry.url %><br>
+	<%= entry.title %><br>
+	<%= entry.summary %> <br>
+	<%= entry.content %><br>
+	<%= entry.categories %><br>
+
+<% end %>

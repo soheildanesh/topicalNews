@@ -3,8 +3,18 @@ source 'https://rubygems.org'
 #### MY INSTALLED GEMS
 gem 'feedjira'
 
+### TEXT PROCESSING GEMS ###
+gem 'stopwords-filter'
+gem 'stopwords'
+gem  'fast-stemmer'
+gem  'engtagger'
+### TEXT PROCESSING GEMS ###
 
-#### RAILS DEFAULT GEMS V
+gem  'byebug'
+
+
+
+#### RAILS DEFAULT GEMS V V
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use SCSS for stylesheets
